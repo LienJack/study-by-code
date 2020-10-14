@@ -1,0 +1,38 @@
+{
+  "name": "antd-form-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack": "webpack",
+    "start": "webpack-dev-server --hot --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yhlben/antd-form-demo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yhlben/antd-form-demo/issues"
+  },
+  "homepage": "https://github.com/yhlben/antd-form-demo#readme",
+  "dependencies": {
+    "async-validator": "^1.8.2",
+    "babel-loader": "^7.1.4",
+    "babel-preset-react": "^6.24.1",
+    "create-react-class": "^15.6.3",
+    "hoist-non-react-statics": "^2.5.0",
+    "react": "^16.3.1",
+    "react-dom": "^16.3.1",
+    "warning": "^3.0.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "webpack": "^4.5.0",
+    "webpack-cli": "^2.0.14",
+    "webpack-dev-server": "^3.1.3"
+  }
+}
